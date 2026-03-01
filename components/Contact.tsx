@@ -22,28 +22,6 @@ export default function Contact() {
         </p>
 
         <div className="flex flex-col gap-6">
-          {/* <a
-            href="mailto:kanusharma881388@gmail.com"
-            className="px-6 py-4 rounded-lg bg-slate-800/70 hover:bg-slate-800 hover:text-teal-500 hover:shadow-[inset_0_2px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg text-slate-200"
-          >
-            kanusharma881388@gmail.com
-          </a>
-
-          <a
-            href="https://github.com/coderkanchan"
-            target="_blank"
-            className="px-6 py-4 rounded-lg bg-slate-800/70 hover:bg-slate-800 hover:text-teal-500 hover:shadow-[inset_0_2px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg text-slate-200"
-          >
-            GitHub
-          </a>
-
-          <a
-            href="https://linkedin.com/in/your-profile"
-            target="_blank"
-            className="px-6 py-4 rounded-lg bg-slate-800/70 hover:bg-slate-800 hover:text-teal-500 hover:shadow-[inset_0_2px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg text-slate-200"
-          >
-            LinkedIn
-          </a> */}
           {contactLins.map((contact) => (
             <a
               key={contact.id}

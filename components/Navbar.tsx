@@ -10,7 +10,9 @@ export default function Navbar() {
 
       <nav className="max-w-285 mx-auto px-4 flex justify-between items-center  pt-8">
 
-        <h1 className="font-bold text-xl">Kanchan</h1>
+        <h1 className="font-bold text-xl">
+          <a href="#hero">Kanchan</a>
+        </h1>
 
         <div className="flex gap-15">
           {navlinks.map((link) => (
