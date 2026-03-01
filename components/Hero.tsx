@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <div className="min-h-screen w-full mx-auto flex items-center justify-center px-6 text-slate-400">
 
-      <div className="flex  justify-between gap-20 max-w-285">
+      <div className="flex lg:flex-row flex-col gap-30 justify-between lg:gap-20 max-w-285">
 
         <div className="w-full text-left items-start flex flex-col gap-10">
 

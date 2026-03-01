@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-2xl z-50">
 
-      <nav className="max-w-285 mx-auto flex justify-between items-center  pt-8">
+      <nav className="max-w-285 mx-auto px-4 flex justify-between items-center  pt-8">
 
         <h1 className="font-bold text-xl">Kanchan</h1>
 
