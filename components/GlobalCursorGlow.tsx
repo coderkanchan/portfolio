@@ -22,7 +22,7 @@ export default function GlobalCursorGlow() {
     <div
       className={`pointer-events-none fixed inset-0 -z-10 transition-opacity duration-500
         ${active ? "opacity-100" : "opacity-0"}
-        bg-[radial-gradient(800px_circle_at_var(--x,50%)_var(--y,50%),rgba(100,50,230,0.12),transparent_55%)]
+        bg-[radial-gradient(800px_circle_at_var(--x,50%)_var(--y,50%),rgba(100,50,130,0.12),transparent_55%)]
       `}
     />
   );
