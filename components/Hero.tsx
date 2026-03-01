@@ -1,6 +1,6 @@
 
 import About from "@/components/About";
-
+import Link from "next/link";
 const buttonLinks = [
   { id: 1, href: "#projects", desc: "Projects" },
   { id: 2, href: "#contact", desc: "Contact Me" }
@@ -32,11 +32,11 @@ export default function Hero() {
             <div className="flex gap-6 justify-center ">
 
               {buttonLinks.map((button) => (
-                <a
+                <Link
                   key={button.id}
                   href={button.href} className="px-8 py-3 flex items-center justify-center rounded-lg bg-slate-800/50 hover:bg-slate-800 hover:shadow-[inset_0_2px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg hover:text-teal-600 group transition-all duration-300">
                   <span className="group-hover:scale-105">{button.desc}</span>
-                </a>
+                </Link>
               ))}
 
             </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const navlinks = [
   { id: 1, href: "#skills", element: "Skills" },
   { id: 2, href: "#projects", element: "Projects" },
@@ -11,16 +13,16 @@ export default function Navbar() {
       <nav className="max-w-285 mx-auto px-4 flex justify-between items-center  pt-8">
 
         <h1 className="font-bold text-xl">
-          <a href="#hero">Kanchan</a>
+          <Link href="#hero">Kanchan</Link>
         </h1>
 
         <div className="flex gap-15">
           {navlinks.map((link) => (
             <ul key={link.id} className="flex text-lg">
               <li>
-                <a href={link.href} className="hover:text-blue-600 hover:underline">
+                <Link href={link.href} className="hover:text-blue-600 hover:underline">
                   {link.element}
-                </a>
+                </Link>
               </li>
             </ul>
           ))}

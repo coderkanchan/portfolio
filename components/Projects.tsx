@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const projects = [
   {
     title: "Full-Stack TypeScript E-Commerce",

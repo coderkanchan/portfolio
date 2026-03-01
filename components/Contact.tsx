@@ -1,8 +1,9 @@
+import { FaLinkedin } from "react-icons/fa";
 
 const contactLins = [
   { id: 1, href: "mailto:kanusharma881388@gmail.com", desc: "kanusharma881388@gmail.com" },
   { id: 2, href: "https://github.com/coderkanchan", desc: "GitHub" },
-  { id: 3, href: "https://linkedin.com/in/your-profile", desc: "LinkedIn" }
+  { id: 3, href: "https://www.linkedin.com/in/kanchan-sharma-ab20a9360/", desc: "Linked" }
 ]
 
 export default function Contact() {
@@ -23,6 +24,7 @@ export default function Contact() {
 
         <div className="flex flex-col gap-6">
           {contactLins.map((contact) => (
+
             <a
               key={contact.id}
               href={contact.href}
